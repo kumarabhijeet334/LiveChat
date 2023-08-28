@@ -1,0 +1,11 @@
+.userlistFont1 {
+    font-size: 17px;
+}
+
+.userlistFont2 {
+    font-size: 13px;
+}
+
+.useritem {
+    width: 100%; /* Set the width to 100% to make it resize based on the container */
+}

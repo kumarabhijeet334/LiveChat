@@ -1,0 +1,7 @@
+.modal-dialog {
+    width: 400px; /* Set your desired width here */
+}
+.modal-danger .modal-content {
+    background-color: rgba(44, 11, 14, 1); /* Set your desired transparent red color here */
+    color: #f21c1c; /* Set the text color to make it readable */
+}

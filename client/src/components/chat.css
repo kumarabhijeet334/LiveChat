@@ -1,0 +1,39 @@
+.user-photo {
+    width: 70%; /* Set the width to 100% to make it resize based on the container */
+    height: 30vh; /* Set height to auto to maintain the aspect ratio */
+}
+
+.rounded-image {
+    border-radius: 10px;
+}
+
+.round-image {
+    border-radius: 30px;
+}
+
+.scrollable-area {
+    max-height: calc(100vh - 120px); /* Adjust as needed */
+    overflow-y: auto;
+    scrollbar-width: none; /* Hide standard scrollbar (Firefox) */
+    -ms-overflow-style: none; /* Hide standard scrollbar (IE/Edge) */
+}
+
+.scrollable-area::-webkit-scrollbar {
+    width: 0; /* Hide standard scrollbar (Chrome/Safari/Opera) */
+}
+
+.searchbar {
+    position: relative;
+  }
+  
+.searchbar1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+}
+  
